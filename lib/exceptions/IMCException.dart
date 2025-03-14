@@ -1,7 +1,8 @@
-class IMCException implements Exception {
+class Imcexception implements Exception {
   final String mensagem;
-  IMCException(this.mensagem);
+
+  Imcexception(this.mensagem);
 
   @override
-  String toString() => "Erro: $mensagem";
+  String toString() => "Erro :$mensagem";
 }
